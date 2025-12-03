@@ -3,4 +3,4 @@ uvicorn
 opencv-python-headless
 numpy
 Pillow
-face-recognition
+deepface
