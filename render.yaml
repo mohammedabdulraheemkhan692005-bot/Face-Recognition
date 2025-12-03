@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Face-Recognition
+    env: python
+    plan: free
+    region: oregon
+    runtime: python-3.10.13
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
