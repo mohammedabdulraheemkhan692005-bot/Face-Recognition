@@ -1,3 +1,4 @@
+tf-keras
 fastapi
 uvicorn
 opencv-python-headless
